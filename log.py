@@ -10,6 +10,10 @@ def kisiAdres(k1,*adres):
     file.write("\n")
     file.write(gelenAdres)
     file.close()
-
-
+def HataLog(k1,sorun):
+    gelenHata = "kisinin ismi {0}, alinan hata {1}".format(k1,sorun)
+    file=open("AdresDefteri/LogKayit/hataLog.txt","a")
+    file.write("\n")
+    file.write(gelenHata)
+    file.close()
 
