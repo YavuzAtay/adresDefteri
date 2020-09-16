@@ -3,8 +3,8 @@ try:
     end = 0
     while(end < 1):
         kisi1=input("Kişinin ismini giriniz -->  ")
-        telefonNo=int(input(kisi1+"'in telefon numarasını giriniz :  "))
-        yas=int(input(kisi1+"'in yaşini giriniz :  "))
+        telefonNo=int(input(kisi1+" kisisine telefon numarasını giriniz :  "))
+        yas=int(input(kisi1+" kisisine yaşini giriniz :  "))
         adrsBitis=0
         kisiadres1=input(kisi1+" kisisine  adres giriniz :  ")
         logMod.kisiAdres(kisi1,kisiadres1)
